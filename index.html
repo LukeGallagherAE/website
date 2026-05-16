@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Adonai Electrical — Licensed electricians serving residential, commercial & industrial clients. 24/7 emergency service. Get a free quote today." />
+  <meta name="keywords" content="electrician, electrical services, residential electrical, commercial electrical, emergency electrician, Adonai Electrical" />
+  <meta property="og:title" content="Adonai Electrical | Licensed Electricians" />
+  <meta property="og:description" content="Professional electrical services — residential, commercial & industrial. 24/7 emergency response." />
+  <meta property="og:type" content="website" />
+  <title>Adonai Electrical | Licensed Electricians</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Emergency Banner -->
+  <div class="emergency-banner">
+    <span class="emergency-icon">⚡</span>
+    <strong>24/7 Emergency Service</strong> — Call us anytime:
+    <a href="tel:+1800ADONAI1" class="emergency-link">1-800-ADONAI-1</a>
+    <span class="emergency-icon">⚡</span>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <div class="logo-icon">⚡</div>
+        <div class="logo-text">
+          <span class="logo-name">Adonai</span>
+          <span class="logo-sub">Electrical</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-cta">Get a Quote</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+    <div class="hero-bg-glow"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Licensed & Insured Electricians
+      </div>
+      <h1 class="hero-title">
+        Power Your World<br />
+        <span class="hero-highlight">With Confidence</span>
+      </h1>
+      <p class="hero-subtitle">
+        Professional electrical solutions for residential, commercial, and industrial clients.
+        Quality work. Competitive pricing. On time, every time.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">
+          <span>Get a Free Quote</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="tel:+1800ADONAI1" class="btn btn-secondary">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <span>Call Now</span>
+        </a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          Licensed & Insured
+        </div>
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          Free Estimates
+        </div>
+        <div class="trust-item">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          5-Star Rated
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-graphic">
+      <div class="electric-ring ring-1"></div>
+      <div class="electric-ring ring-2"></div>
+      <div class="electric-ring ring-3"></div>
+      <div class="bolt-center">⚡</div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card" data-animate>
+          <div class="stat-number" data-count="1200">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-card" data-animate>
+          <div class="stat-number" data-count="15">0</div>
+          <div class="stat-plus">+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-card" data-animate>
+          <div class="stat-number" data-count="98">0</div>
+          <div class="stat-plus">%</div>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+        <div class="stat-card" data-animate>
+          <div class="stat-number" data-count="24">0</div>
+          <div class="stat-plus">/7</div>
+          <div class="stat-label">Emergency Response</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-tag">What We Do</div>
+        <h2 class="section-title">Electrical Services<br /><span class="highlight">Built for You</span></h2>
+        <p class="section-subtitle">From simple repairs to complete electrical system installations, we handle it all with expertise and care.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🏠</div>
+          </div>
+          <h3>Residential Electrical</h3>
+          <p>Full home wiring, panel upgrades, lighting installation, safety inspections and more for your home.</p>
+          <ul class="service-list">
+            <li>Panel upgrades & replacements</li>
+            <li>Lighting design & installation</li>
+            <li>Outlet & switch installation</li>
+            <li>Safety & compliance inspections</li>
+          </ul>
+          <a href="#contact" class="service-link">Request Service →</a>
+        </div>
+
+        <div class="service-card featured" data-animate>
+          <div class="service-badge">Most Popular</div>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🏢</div>
+          </div>
+          <h3>Commercial Electrical</h3>
+          <p>Powering businesses with reliable electrical infrastructure, energy efficiency, and code compliance.</p>
+          <ul class="service-list">
+            <li>Commercial wiring & fit-outs</li>
+            <li>Energy management systems</li>
+            <li>Data & communications cabling</li>
+            <li>LED lighting retrofits</li>
+          </ul>
+          <a href="#contact" class="service-link">Request Service →</a>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🏭</div>
+          </div>
+          <h3>Industrial Electrical</h3>
+          <p>Heavy-duty electrical systems for factories, warehouses, and industrial facilities.</p>
+          <ul class="service-list">
+            <li>3-phase power systems</li>
+            <li>Motor & machinery wiring</li>
+            <li>Industrial switchboard work</li>
+            <li>Preventative maintenance</li>
+          </ul>
+          <a href="#contact" class="service-link">Request Service →</a>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🔆</div>
+          </div>
+          <h3>Solar & Battery</h3>
+          <p>Clean energy solutions — solar panel installation, battery storage, and EV charging stations.</p>
+          <ul class="service-list">
+            <li>Solar panel installation</li>
+            <li>Battery storage systems</li>
+            <li>EV charger installation</li>
+            <li>Grid-tie & off-grid systems</li>
+          </ul>
+          <a href="#contact" class="service-link">Request Service →</a>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🚨</div>
+          </div>
+          <h3>Emergency Electrical</h3>
+          <p>Electrical emergencies can't wait. We respond fast, 24 hours a day, 7 days a week.</p>
+          <ul class="service-list">
+            <li>Electrical faults & outages</li>
+            <li>Circuit breaker failures</li>
+            <li>Storm damage repairs</li>
+            <li>Hazardous wiring</li>
+          </ul>
+          <a href="tel:+1800ADONAI1" class="service-link emergency">Call Now — 24/7 →</a>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon-wrap">
+            <div class="service-icon">🔒</div>
+          </div>
+          <h3>Safety & Compliance</h3>
+          <p>Electrical safety inspections and compliance reports to protect your property and meet regulations.</p>
+          <ul class="service-list">
+            <li>Pre-purchase inspections</li>
+            <li>Rental compliance reports</li>
+            <li>RCD & smoke alarm testing</li>
+            <li>Thermal imaging surveys</li>
+          </ul>
+          <a href="#contact" class="service-link">Request Service →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-us">
+    <div class="container">
+      <div class="why-us-inner">
+        <div class="why-us-content" data-animate>
+          <div class="section-tag">Why Adonai?</div>
+          <h2 class="section-title">Electricians You Can <span class="highlight">Actually Trust</span></h2>
+          <p class="section-subtitle">We show up on time, communicate clearly, and take pride in doing the job right the first time.</p>
+
+          <div class="features-list">
+            <div class="feature-item">
+              <div class="feature-icon">🏆</div>
+              <div>
+                <h4>Licensed & Fully Insured</h4>
+                <p>All our electricians hold current licenses and are fully insured for your peace of mind.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">💬</div>
+              <div>
+                <h4>Transparent Pricing</h4>
+                <p>No hidden fees. We provide clear, upfront quotes before any work begins.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">⏱️</div>
+              <div>
+                <h4>On Time, Every Time</h4>
+                <p>We respect your time. If we say we'll be there at 9am, we'll be there at 9am.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🔧</div>
+              <div>
+                <h4>Workmanship Guarantee</h4>
+                <p>All our work is backed by a comprehensive workmanship guarantee.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        </div>
+
+        <div class="why-us-visual" data-animate>
+          <div class="visual-card main-card">
+            <div class="card-header">
+              <div class="card-avatar">⚡</div>
+              <div>
+                <div class="card-name">Adonai Electrical</div>
+                <div class="card-role">Master Electricians</div>
+              </div>
+            </div>
+            <div class="rating-row">
+              <span class="stars">★★★★★</span>
+              <span class="rating-num">5.0</span>
+              <span class="rating-count">(200+ reviews)</span>
+            </div>
+            <div class="card-badges">
+              <span class="cbadge">✓ Licensed</span>
+              <span class="cbadge">✓ Insured</span>
+              <span class="cbadge">✓ 15+ Years</span>
+            </div>
+          </div>
+          <div class="visual-card stat-card-float">
+            <div class="float-icon">🚀</div>
+            <div class="float-stat">Same-day</div>
+            <div class="float-label">Service Available</div>
+          </div>
+          <div class="visual-card guarantee-card">
+            <div class="float-icon">🛡️</div>
+            <div class="float-stat">100%</div>
+            <div class="float-label">Satisfaction Guarantee</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-tag">Our Work</div>
+        <h2 class="section-title">Recent <span class="highlight">Projects</span></h2>
+        <p class="section-subtitle">A snapshot of completed work across residential, commercial and industrial sectors.</p>
+      </div>
+
+      <div class="portfolio-filter" data-animate>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="industrial">Industrial</button>
+        <button class="filter-btn" data-filter="solar">Solar</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+        <div class="portfolio-item" data-category="residential" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder resi-1">
+              <span class="port-icon">🏠</span>
+              <span>Panel Upgrade</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Complete Panel Upgrade</h4>
+            <p>200A service upgrade with new switchboard — Residential</p>
+            <div class="port-tags"><span>Residential</span><span>Panel</span></div>
+          </div>
+        </div>
+
+        <div class="portfolio-item large" data-category="commercial" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder comm-1">
+              <span class="port-icon">🏢</span>
+              <span>Office Fit-out</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Commercial Office Fit-out</h4>
+            <p>Full electrical installation for 3-level office building — Commercial</p>
+            <div class="port-tags"><span>Commercial</span><span>New Build</span></div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="solar" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder solar-1">
+              <span class="port-icon">☀️</span>
+              <span>Solar + Battery</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>10kW Solar + Battery System</h4>
+            <p>Solar installation with Tesla Powerwall — Residential</p>
+            <div class="port-tags"><span>Solar</span><span>Battery</span></div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="industrial" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder ind-1">
+              <span class="port-icon">🏭</span>
+              <span>Warehouse Wiring</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Warehouse Electrical Fit-out</h4>
+            <p>3-phase power & LED lighting — Industrial</p>
+            <div class="port-tags"><span>Industrial</span><span>3-Phase</span></div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="residential" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder resi-2">
+              <span class="port-icon">💡</span>
+              <span>LED Lighting</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>Smart Lighting System</h4>
+            <p>Full home LED + smart controls — Residential</p>
+            <div class="port-tags"><span>Residential</span><span>Smart</span></div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="commercial" data-animate>
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder comm-2">
+              <span class="port-icon">🔌</span>
+              <span>EV Charging</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h4>EV Charging Station Hub</h4>
+            <p>20-bay EV charging installation — Commercial</p>
+            <div class="port-tags"><span>Commercial</span><span>EV</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-tag">Client Reviews</div>
+        <h2 class="section-title">What Our Clients <span class="highlight">Say</span></h2>
+      </div>
+
+      <div class="testimonials-track-wrap" data-animate>
+        <div class="testimonials-track" id="testimonialsTrack">
+
+          <div class="testimonial-card">
+            <div class="test-stars">★★★★★</div>
+            <p class="test-text">"Adonai Electrical did an amazing job upgrading our switchboard. Fast, clean work and the team were incredibly professional. Would absolutely recommend!"</p>
+            <div class="test-author">
+              <div class="test-avatar">SM</div>
+              <div>
+                <div class="test-name">Sarah Mitchell</div>
+                <div class="test-role">Homeowner</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="test-stars">★★★★★</div>
+            <p class="test-text">"We used Adonai for our entire office fit-out. They managed everything perfectly, on budget and ahead of schedule. Exceptional service."</p>
+            <div class="test-author">
+              <div class="test-avatar">JT</div>
+              <div>
+                <div class="test-name">James Thompson</div>
+                <div class="test-role">Business Owner</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="test-stars">★★★★★</div>
+            <p class="test-text">"Called them out for an emergency at 11pm — they were there within the hour. Sorted the issue quickly and charged a very fair price. Brilliant service."</p>
+            <div class="test-author">
+              <div class="test-avatar">KL</div>
+              <div>
+                <div class="test-name">Karen Lewis</div>
+                <div class="test-role">Property Manager</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="test-stars">★★★★★</div>
+            <p class="test-text">"The solar + battery install was seamless. They explained every step and left the site spotless. Saving a fortune on power bills now!"</p>
+            <div class="test-author">
+              <div class="test-avatar">DP</div>
+              <div>
+                <div class="test-name">David Park</div>
+                <div class="test-role">Homeowner</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="test-stars">★★★★★</div>
+            <p class="test-text">"Professional, knowledgeable and friendly. Adonai rewired our entire warehouse and the finish was outstanding. Highly recommend for any industrial work."</p>
+            <div class="test-author">
+              <div class="test-avatar">RB</div>
+              <div>
+                <div class="test-name">Rachel Brown</div>
+                <div class="test-role">Operations Manager</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="testimonials-controls">
+          <button class="test-btn" id="testPrev" aria-label="Previous">←</button>
+          <div class="test-dots" id="testDots"></div>
+          <button class="test-btn" id="testNext" aria-label="Next">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-content" data-animate>
+          <div class="section-tag">About Us</div>
+          <h2 class="section-title">Powering Communities<br /><span class="highlight">Since 2009</span></h2>
+          <p>Adonai Electrical was founded with one simple goal: provide honest, high-quality electrical services that families and businesses can rely on.</p>
+          <p>Over 15 years, we've grown into a team of passionate, licensed electricians who genuinely care about every project — whether it's a single power point or a full commercial fit-out.</p>
+          <p>We believe in doing things right the first time, communicating openly, and treating every client's property with the same care we'd give our own.</p>
+
+          <div class="about-highlights">
+            <div class="about-highlight">
+              <div class="ah-icon">📜</div>
+              <div>
+                <strong>Fully Licensed</strong>
+                <span>All work compliant with local codes</span>
+              </div>
+            </div>
+            <div class="about-highlight">
+              <div class="ah-icon">🌱</div>
+              <div>
+                <strong>Sustainability Focused</strong>
+                <span>Experts in solar & green energy</span>
+              </div>
+            </div>
+            <div class="about-highlight">
+              <div class="ah-icon">🤝</div>
+              <div>
+                <strong>Community First</strong>
+                <span>Proudly local, proudly Australian</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual" data-animate>
+          <div class="about-card-grid">
+            <div class="about-badge-card">
+              <div class="abc-year">2009</div>
+              <div class="abc-label">Founded</div>
+            </div>
+            <div class="about-badge-card accent">
+              <div class="abc-year">1200+</div>
+              <div class="abc-label">Projects</div>
+            </div>
+            <div class="about-badge-card">
+              <div class="abc-year">15+</div>
+              <div class="abc-label">Team Members</div>
+            </div>
+            <div class="about-badge-card accent">
+              <div class="abc-year">5★</div>
+              <div class="abc-label">Rating</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-tag">FAQ</div>
+        <h2 class="section-title">Common <span class="highlight">Questions</span></h2>
+      </div>
+
+      <div class="faq-list" data-animate>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you provide free quotes?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes — we provide free, no-obligation quotes for all jobs. Simply contact us via the form below or give us a call and we'll arrange a time that suits you.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Are you available for emergencies after hours?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. We operate a 24/7 emergency electrical service. Electrical faults don't keep business hours, and neither do we. Call our emergency line any time.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What areas do you service?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We service a wide area including metropolitan and surrounding regions. Contact us to confirm coverage in your area — we travel for larger commercial and industrial projects.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Is your work guaranteed?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. All our work comes with a comprehensive workmanship guarantee. If something isn't right, we'll fix it — no questions asked.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Can you help with energy efficiency and solar?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! We specialise in solar panel installation, battery storage systems, LED lighting upgrades, and EV charger installations. Get in touch for a tailored energy assessment.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How long does an electrical inspection take?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>A standard residential safety inspection typically takes 1–2 hours depending on the size and complexity of the property. We'll provide a detailed written report on completion.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <div class="section-tag">Get in Touch</div>
+        <h2 class="section-title">Ready to Get <span class="highlight">Started?</span></h2>
+        <p class="section-subtitle">Fill in the form below and we'll get back to you with a free, no-obligation quote within 24 hours.</p>
+      </div>
+
+      <div class="contact-inner">
+        <div class="contact-info" data-animate>
+          <div class="cinfo-card">
+            <div class="cinfo-icon">📞</div>
+            <div>
+              <div class="cinfo-label">Phone</div>
+              <a href="tel:+1800ADONAI1" class="cinfo-value">1-800-ADONAI-1</a>
+            </div>
+          </div>
+          <div class="cinfo-card">
+            <div class="cinfo-icon">✉️</div>
+            <div>
+              <div class="cinfo-label">Email</div>
+              <a href="mailto:info@adonaielectrical.com" class="cinfo-value">info@adonaielectrical.com</a>
+            </div>
+          </div>
+          <div class="cinfo-card">
+            <div class="cinfo-icon">⏰</div>
+            <div>
+              <div class="cinfo-label">Hours</div>
+              <div class="cinfo-value">Mon–Fri 7am–6pm<br /><span class="emergency-text">24/7 Emergency</span></div>
+            </div>
+          </div>
+          <div class="cinfo-card">
+            <div class="cinfo-icon">📍</div>
+            <div>
+              <div class="cinfo-label">Service Area</div>
+              <div class="cinfo-value">Metropolitan & Surrounds</div>
+            </div>
+          </div>
+
+          <div class="contact-social">
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Instagram">in</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">li</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" data-animate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+61 4xx xxx xxx" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="service">Service Type</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option value="residential">Residential Electrical</option>
+                <option value="commercial">Commercial Electrical</option>
+                <option value="industrial">Industrial Electrical</option>
+                <option value="solar">Solar & Battery</option>
+                <option value="emergency">Emergency Service</option>
+                <option value="inspection">Safety Inspection</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="urgency">Urgency</label>
+              <select id="urgency" name="urgency">
+                <option value="normal">Not Urgent</option>
+                <option value="soon">Within a week</option>
+                <option value="urgent">Urgent (1–2 days)</option>
+                <option value="emergency">Emergency — ASAP</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell us about your job *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Describe what you need help with..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span id="btnText">Send My Request</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+          </button>
+          <p class="form-note">We typically respond within 2 business hours.</p>
+
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">✓</div>
+            <h4>Request Sent!</h4>
+            <p>Thanks for reaching out. We'll be in touch within 24 hours.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <div class="logo-icon">⚡</div>
+            <div class="logo-text">
+              <span class="logo-name">Adonai</span>
+              <span class="logo-sub">Electrical</span>
+            </div>
+          </a>
+          <p>Professional electrical services delivered with integrity. Licensed, insured, and committed to excellence.</p>
+          <div class="footer-badges">
+            <span class="fbadge">✓ Licensed</span>
+            <span class="fbadge">✓ Insured</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Residential</a></li>
+            <li><a href="#services">Commercial</a></li>
+            <li><a href="#services">Industrial</a></li>
+            <li><a href="#services">Solar & Battery</a></li>
+            <li><a href="#services">Emergency Service</a></li>
+            <li><a href="#services">Safety Inspections</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+1800ADONAI1">1-800-ADONAI-1</a></li>
+            <li><a href="mailto:info@adonaielectrical.com">info@adonaielectrical.com</a></li>
+            <li>Mon–Fri: 7am–6pm</li>
+            <li><strong style="color: var(--yellow)">24/7 Emergency Line</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 Adonai Electrical. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p>Licensed Electrical Contractor | ABN: XX XXX XXX XXX</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
